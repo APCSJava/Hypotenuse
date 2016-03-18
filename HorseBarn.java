@@ -16,6 +16,11 @@ public class HorseBarn {
 	public void rollCall() {
 		for (Horse h: spaces) {
 			System.out.println(h.getName());
-		}
+		} // can we print the stall number, too?
+	}
+	
+	public Horse removeHorse(int stall) {
+		return spaces[stall];
+		// how do we clear the stall?
 	}
 }

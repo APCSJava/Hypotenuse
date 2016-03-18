@@ -7,6 +7,7 @@ public class HorseBarnTester {
 		Horse h2 = new Horse("Pedro", 1256.5);
 		barn.assignStall(3, h1);
 		barn.assignStall(7, h2);
+		barn.assignStall(8, barn.removeHorse(7));
 		barn.rollCall();
 	}
 
