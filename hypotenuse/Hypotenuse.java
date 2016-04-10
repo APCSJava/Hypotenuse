@@ -1,3 +1,4 @@
+package hypotenuse;
 
 public class Hypotenuse {
 

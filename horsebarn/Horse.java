@@ -1,3 +1,4 @@
+package horsebarn;
 
 public class Horse {
 
